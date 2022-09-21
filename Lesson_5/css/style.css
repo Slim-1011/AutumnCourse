@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@font-face {
+	font-family: "RubikDirt";
+	src: url(../fonts/AnyConv.com__RubikDirt-Regular.woff2) format("woff2"), url(../fonts/AnyConv.com__RubikDirt-Regular.woff) format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+main {
+	width: 950px;
+	text-align: justify;
+	margin: 0 auto;
+}
+
+p {
+	text-indent: 30px;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+h1 {
+	text-transform: capitalize;
+	font-size: 32px;
+	font-family: "RubikDirt";
+}
+
+h2 {
+	text-decoration: line-through;
+	font-size: 24px;
+	word-spacing: 30px;
+}
+
+span {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 24px;
+	text-shadow: 16px -1px 4px rgba(9, 108, 83, 0.6);
+}
+
+img {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+.header,
+.footer {
+	color: blue;
+}
+
+div.mountain > p {
+	color: #415e38;
+}
+
+h2 ~ p.most {
+	color: blueviolet;
+	font-family: "Lobster";
+}
+
+li {
+	color: brown;
+	text-decoration: underline;
+	letter-spacing: 5px;
+}
+
+p.most + p {
+	color: aqua;
+}
+
+li.first + li {
+	color: #dad711;
+}
