@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+	font-family: 'Lato', Times, serif;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-bottom: 65px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img {
+	margin-bottom: 60px;
+}
+
+.main-container > p {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	margin-bottom: 25px;
+}
+.header,
+.footer {
+	font-size: 24px;
+}
+
+.main-container {
+	max-width: 810px;
+	margin: 0 auto;
+}
+.main-img {
+}
+
+.main-section p {
+	line-height: 160%;
+}
+
+.main-section p {
+	margin-bottom: 24px;
+}
+
+.main-section p ~ p {
+	margin-bottom: 48px;
+}
+
+.quote {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	margin-bottom: 48px;
+	background: url(../img/braces.png) 0 0 no-repeat;
+	padding-left: 58px;
+}
+
+.main-list {
+	margin-bottom: 24px;
+}
+
+.main-list li {
+	padding-left: 32px;
+	background: url(../img/check.png) 0 4px no-repeat;
+	margin-bottom: 4px;
+	line-height: 160%;
+}
+a {
+	margin-left: 35px;
+	border: 4px dashed black;
+}
+.footer {
+	margin-bottom: 45px;
+}
+
+
+.block div {
+	height: 100px;
+	width: 100px;
+	background-color: aquamarine;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.first {
+	border-radius: 50%;
+	border: 3px dashed black;
+}
+
+.second {
+	outline: 5px solid black;
+}
+
+.third {
+	border-bottom: 4px solid #5214d6;
+	border-right: 4px dashed #060606;
+	border-radius: 20%;
+}
+
+.fourth {
+	box-shadow: inset 1px 1px 12px 15px gold;
+}
+
+.fifth {
+	box-shadow: 10px 5px 5px red, -10px -5px 5px red;
+}
+
+.sixth {
+	border-top: 8px dotted blue;
+	border-bottom: 8px double blue;
+}
+
+div.seventh {
+	background-color: #5214d6;
+	opacity: 0.4;
+}
+
+.eight {
+	visibility: hidden;
+}
+
+.ninth {
+	outline: 8px dotted blueviolet;
+	border-bottom: 10px double brown;
+	border-right: 10px double brown;
+	border-bottom-right-radius: 40%;
+}
+
+div.tenth {
+	background-color: #060606;
+	border: 1px solid black;
+	border-radius: 50%;
+	box-shadow: inset 20px 2px white;
+}
+
+.block {
+	margin-bottom: 30px;
+}
+
+span {
+	font-size: 36px;
+	line-height: 120%;
+	outline: 3px solid blue;
+	border: 10px dotted blue;
+	background-color: aquamarine;
+	text-shadow: 1px 5px 9px #060606;
+	box-shadow: inset 30px 40px white;
+}
+
+.span {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.lesson-7 div {
+	margin: 0 auto 30px;
+	max-width: 1200px;
+}
+
+.lesson-6 {
+	margin: 0 auto 30px;
+	max-width: 1300px;
+}
+
+
+.one {
+	height: 250px;
+	background: url(../img/green_1.jpg) 0 0 / cover;
+	background-attachment: fixed;
+	color: red;
+	font-size: 30px;
+}
+
+.two {
+	background: url(../img/green_2.jpg) 0 0 / 15% ;
+	height: 250px;
+}
+
+.three {
+	background: url(../img/green_3.jpg) 0 0 /contain no-repeat;
+}
+
+.four {
+	background-color: brown;
+	background: brown url(../img/green_4.jpg) top right / contain no-repeat;
+}
+
+.five {
+	height: 300px;
+	background: url(../img/green_5.jpg) left top / 500px no-repeat, url(../img/green_3.jpg) 400px 20px / 400px no-repeat, greenyellow;
+}
