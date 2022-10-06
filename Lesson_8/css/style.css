@@ -107,25 +107,25 @@ a:focus {
 
 .raiting-item-star::before {
 	content: "";
-	background: url(img/Star.png) 0 1px no-repeat;
+	background: url(../img/Star.png) 0 1px no-repeat;
 	margin-right: 8px;
 }
 
 .raiting-item-play::before {
 	content: "";
-	background: url(img/Play.png) 0 1px no-repeat;
+	background: url(../img/Play.png) 0 1px no-repeat;
 	margin-right: 8px;
 }
 
 .raiting-item-human::before {
 	content: "";
-	background: url(img/Profile.png) 0 1px no-repeat;
+	background: url(../img/Profile.png) 0 1px no-repeat;
 	margin-right: 8px;
 }
 
 .list-item::before {
 	content: "";
-	background: url(img/check.png) 0 1px no-repeat;
+	background: url(../img/check.png) 0 1px no-repeat;
 	margin-right: 16px;
 }
 
@@ -135,19 +135,19 @@ a:focus {
 
 .raiting-item-star:hover:before {
 	content: "";
-	background: url(img/Star_hover.png);
+	background: url(../img/Star_hover.png);
 	transform: scale(1.2);
 }
 
 .raiting-item-play:hover::before {
 	content: "";
-	background: url(img/Play_hover.png);
+	background: url(../img/Play_hover.png);
 	transform: scale(1.2);
 }
 
 .raiting-item-human:hover::before {
 	content: "";
-	background: url(img/Profile_hover.png);
+	background: url(../img/Profile_hover.png);
 	transform: scale(1.2);
 }
 
@@ -187,7 +187,7 @@ ul li:hover ul {
 	color: red;
 	width: 230px;
 	height: 100px;
-	background: url(img/boy.png) -50px -35px no-repeat;
+	background: url(../img/boy.png) -50px -35px no-repeat;
 }
 
 .game:not(:first-child) {
@@ -289,7 +289,7 @@ ul li:hover ul {
 .game-together {
 	width: 260px;
 	height: 150px;
-	background: url(img/together.png) -20px 0px no-repeat;
+	background: url(../img/together.png) -20px 0px no-repeat;
 	margin-left: 950px;
 	/*opacity: 0;
 	visibility: hidden;*/
