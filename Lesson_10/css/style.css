@@ -110,6 +110,7 @@ blockquote::before {
 	border-radius: 4px;
 	text-align: center;
 	padding-top: 12px;
+	color: #ffffff;
 }
 
 .section-1__button {
