@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="46mm" height="13mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4600 1300"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="89.66" y1="648.18" x2="4530.1" y2="648.18">
+   <stop offset="0" style="stop-opacity:1; stop-color:#6AFEE4"/>
+   <stop offset="0.6" style="stop-opacity:1; stop-color:#35BFD4"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#007FC4"/>
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_3009593552672">
+   <polygon class="fil0" points="89.66,1146.23 366.46,783.66 586.73,549.76 801.14,370.43 1072.09,210.59 1335.24,113.12 1518.48,78.03 1723.15,56.59 1892.73,62.44 2167.58,78.03 2403.44,105.32 2680.24,150.16 2906.36,194.99 3179.25,261.27 3424.86,341.19 3652.93,411.36 3929.73,504.93 4142.2,588.74 4327.37,658.91 4428.74,717.39 4493.06,762.22 4530.1,799.26 4522.3,838.24 4487.22,871.38 4409.24,914.26 4288.39,953.25 4134.4,1000.03 3929.73,1040.97 3715.31,1083.85 3496.99,1118.94 3235.78,1159.87 3007.72,1183.26 2748.47,1204.7 2508.71,1218.35 2284.54,1228.1 2050.62,1237.84 1834.26,1239.79 1610.09,1235.89 1346.94,1231.99 1075.99,1224.2 797.24,1208.6 526.3,1191.06 296.28,1169.62 "/>
+  </g>
+ </g>
+</svg>
