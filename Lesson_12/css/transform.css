@@ -1,0 +1,26 @@
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+
+.main__container {
+	padding: 50px;
+}
+
+
+
+.transform__container {
+	width: 150px;
+	height: 150px;
+	background-color: aquamarine;
+	display: inline-block;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+
+.transform__container div {
+	width: 150px;
+	height: 150px;
+	background-color: rgb(11, 55, 3);
+}
