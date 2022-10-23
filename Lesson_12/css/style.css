@@ -80,7 +80,7 @@ body {
 	opacity: 1;
 	visibility: visible;
 	transition: 2s; 
-	transform: skew(5deg);
+	transform: skew(5deg) rotate(360deg);
 }
 
 .content:hover .content__pic--top-right {
@@ -89,7 +89,7 @@ body {
 	opacity: 1;
 	visibility: visible;
 	transition: 2s;
-	transform: skew(5deg);
+	transform: skew(5deg) rotate(360deg);
 	
 }
 
@@ -99,7 +99,7 @@ body {
 	opacity: 1;
 	visibility: visible;
 	transition: 2s;
-	transform: skew(5deg);
+	transform: skew(5deg) rotate(360deg);
 }
 
 .content:hover .content__pic--bottom-right {
@@ -108,7 +108,7 @@ body {
 	opacity: 1;
 	visibility: visible;
 	transition: 2s;
-	transform: skew(5deg);
+	transform: skew(5deg) rotate(360deg);
 }
 
 .content__text {
