@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/components.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">header</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<section class="part-form">
+					<div class="part-form__image">
+						<img src="img/content-image/illustration.svg" alt="sitting-human">
+					</div>
+					<div class="part-form__main main-form">
+						<h3 class="main-form__subtitle">Any questions?</h3>
+						<h1 class="main-form__title">Drop us a line</h1>
+						<form action="#" method="get" enctype="multipart/form-data" class="main-form__forms form">
+							<div class="form__line">
+								<label for="first-name">First Name*</label>
+								<input id="first-name" name="first-name" type="text" placeholder="Your first name" required>
+							</div>
+							<div class="form__line">
+								<label for="last-name">Last Name*</label>
+								<input id="last-name" name="last-name" type="text" placeholder="Your last name" required>
+							</div>
+							<div class="form__line">
+								<label for="email">Email*</label>
+								<input id="email" name="working-email" type="email" placeholder="Your working email" required>
+							</div>
+							<div class="form__line">
+								<label for="phone">Phone</label>
+								<input id="phone" name="phone-number" type="text" placeholder="Your phone number"
+									autocomplete="off">
+							</div>
+							<div class="form__area">
+								<label for="message">Message*</label>
+								<textarea name="message" id="message" placeholder="Your message" required></textarea>
+							</div>
+						</form>
+						<form action="#" method="get" enctype="application/x-www-form-urlencoded"
+							class="main-form__submit submit-form">
+							<div class="submit-form__check checkbox">
+								<input class="checkbox__input" type="checkbox" name="agree" id="agree" required>
+								<label class="checkbox__label" for="agree">I agree to receive communications from Createx Online
+									School</label>
+							</div>
+							<div class="submit-form__button">
+								<input type="submit" name="submit" id="submit" value="Send message" required>
+							</div>
+						</form>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">footer</div>
+		</footer>
+	</div>
+</body>
+
+</html>
