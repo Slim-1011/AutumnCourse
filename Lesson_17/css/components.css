@@ -1,0 +1,14 @@
+.button {
+	display: block;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	padding: 15px 40px;
+	color: white;
+	transition: all 0.3s ease 0s;
+	flex-shrink: 0;
+	font-weight: 700;
+}
+
+.button:hover {
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.8);
+}

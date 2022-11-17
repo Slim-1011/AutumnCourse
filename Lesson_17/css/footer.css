@@ -1,0 +1,181 @@
+.footer {
+	position: relative;
+	background-color: #1E212C;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-top {
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.footer-bottom {
+	background-color: rgba(255, 255, 255, 0.05);
+	padding: 18px 15px;
+	
+}
+
+.footer-bottom__container {
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+.footer-bottom__left,
+.footer-bottom__center {
+	font-size: 12px;
+	line-height: 150%;
+	color: rgb(255, 255, 255)
+}
+
+.footer-bottom__center {
+	flex-grow: 1;
+}
+
+.footer-bottom__center > span {
+	display: inline-flex;
+	column-gap: 4.5px;
+}
+
+.footer-bottom__center > span::before {
+	content: " ";
+	flex-basis: 15px;
+	width: 15px;
+	height: 13px;
+	background: url(../img/icons/heart.svg) center no-repeat;
+	margin-left: 2.0px;
+}
+
+.footer-bottom__right {
+	text-transform: uppercase;
+	color: white;
+}
+
+.column {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	column-gap: 80px;
+}
+
+.column__content {
+	display: flex;
+	flex-direction: row;
+	gap: 80px;
+}
+
+.column__logo {
+	flex: 0 1 279px;
+}
+
+.column__logo > a {
+	display: flex;
+	margin-bottom: 24px;
+}
+
+.logo__text {
+	margin-bottom: 38px;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+.logo__messangers {
+	display: flex;
+	column-gap: 20px;
+}
+
+.column__site-map {
+	flex: 0 0 auto;
+}
+
+.site-map__title,
+.courses__title,
+.contact-us__title,
+.sign-up__title {
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+
+.site-map__item:not(:last-child),
+.courses__item:not(:last-child),
+.contact-us__item:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+.site-map__item,
+.courses__item,
+.contact-us__item {
+	line-height: 160%;
+}
+
+.column__courses {
+	flex: 0 0 auto;
+}
+
+.contact-us__tell,
+.contact-us__email {
+	display: flex;
+}
+
+.contact-us__tell::before {
+	content: "";
+	flex-basis: 16px;
+	width: 16px;
+	height: 16px;
+	background: url(../img/icons/iPhone.svg) center no-repeat;
+	margin-right: 8px;
+}
+
+.contact-us__email::before {
+	content: "";
+	flex-basis: 16px;
+	width: 16px;
+	height: 16px;
+	background: url(../img/icons/letter.svg) center no-repeat;
+	margin-right: 8px;
+}
+
+.column__sign-up {
+	flex: 1 1 286px;
+}
+
+.sign-up__form {
+	position: relative;
+}
+
+.sgn-up__email {
+	background-color: rgba(255, 255, 255, 0.12);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+	color: #FFFFFF;
+	padding: 9px 30px 9px 12px;
+	margin-bottom: 12px;
+	width: 100%;
+}
+
+.sign-up__submit-link {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 33%;
+	right: 0;
+	margin-right: 12px;
+}
+
+.sign-up__submit-link::before {
+	content: "";
+	flex-basis: 12px;
+	width: 12px;
+	height: 7.33px;
+	background: url(../img/icons/arrow-right.svg) center no-repeat;
+}
+
+.sign-up__subscribe {
+	font-size: 10px;
+	line-height: 150%;
+	padding-right: 5px;
+}
